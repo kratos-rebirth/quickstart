@@ -10,9 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    
-    # Setup Node.js env
-    - uses: actions/setup-node@v4
+    - name: Setup Node.js env
+      uses: actions/setup-node@v4
       with:
         node-version: 'latest'
 
@@ -22,14 +21,12 @@ jobs:
         version: 9
         run_install: false
 
-    # Install Hexo env
     - name: Checkout repo
       uses: actions/checkout@v4
 
     - name: Install Hexo environment
       run: pnpm install
 
-    # Hexo build site
     - name: Hexo build site
       run: npx hexo generate --force
 
