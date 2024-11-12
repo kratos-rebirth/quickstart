@@ -23,6 +23,9 @@ jobs:
         run_install: false
 
     # Install Hexo env
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
     - name: Install Hexo environment
       run: pnpm install
 
