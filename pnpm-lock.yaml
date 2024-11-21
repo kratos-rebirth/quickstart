@@ -12,8 +12,8 @@ importers:
         specifier: ^7.3.0
         version: 7.3.0(chokidar@3.6.0)
       hexo-filter-date-from-git:
-        specifier: ^0.1.2
-        version: 0.1.2
+        specifier: ^0.2.0
+        version: 0.2.0
       hexo-generator-archive:
         specifier: ^2.0.0
         version: 2.0.0
@@ -385,8 +385,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  hexo-filter-date-from-git@0.1.2:
-    resolution: {integrity: sha512-nGQFdheRo244h62jLN/ih8uAY4z/MvTPJTbjfNecPjdSnRycIL2B6RNAc2UFZvl4rptjir3mk1B9oXVQDCWw7A==}
+  hexo-filter-date-from-git@0.2.0:
+    resolution: {integrity: sha512-wfy12bhJPpTpKrjq8+mlk3m78TSkHgtwQWF1XzB9M4fF3ttVy4cNpCnQMbvxm+QViLf+4/DRxaWwSGMLXrZdtw==}
 
   hexo-front-matter@4.2.1:
     resolution: {integrity: sha512-sJJI0GNmejYiwBvgnGRKn5V3sbODB4dNPr8jyw2Qp0PRHr4Uuyv8iyxw6WfK3+T7yvzYvJOh+tZ7jnwr2BYARA==}
@@ -1266,7 +1266,7 @@ snapshots:
       resolve: 1.22.8
       tildify: 2.0.0
 
-  hexo-filter-date-from-git@0.1.2:
+  hexo-filter-date-from-git@0.2.0:
     dependencies:
       moment-timezone: 0.5.45
 

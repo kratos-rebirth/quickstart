@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "hexo": "^7.3.0",
-    "hexo-filter-date-from-git": "^0.1.2",
+    "hexo-filter-date-from-git": "^0.2.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
