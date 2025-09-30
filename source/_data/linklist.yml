@@ -1,0 +1,21 @@
+example:
+
+- title: "Hexo"
+  description: "快速、简洁且高效的博客框架"
+  image: "https://hexo.io/logo.svg"
+  link: "https://hexo.io/zh-cn/"
+
+- title: "Kratos : Rebirth"
+  description: "一个可爱而现代的 Hexo 主题"
+  image: "https://avatars.githubusercontent.com/u/170786100"
+  link: "https://krt.moe/"
+
+- title: "本地图片"
+  description: "可以使用本地资源作为链接的图片"
+  image: "/images/user.svg"
+  link: "/"
+
+- title: "新标签页"
+  description: "所有链接会在新标签页中打开"
+  image: "/images/user.svg"
+  link: "/"

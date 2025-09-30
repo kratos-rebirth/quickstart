@@ -36,6 +36,10 @@ nav:
         - label: 项目文档
           icon: book
           url: https://wiki.krt.moe
+    - label: 链接列表
+      icon: link
+      url: /linklist-example/
+      # float_right: true
 
 # Footer 页脚配置
 footer:
